@@ -1,0 +1,17 @@
+{
+  "name": "number_guessing_game",
+  "version": "1.0.0",
+  "description": "This is a number guessing game",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "bin":{
+    "start-game": "./server.js"
+  }
+}
